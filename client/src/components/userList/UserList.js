@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "../../redux/actions";
 import UserCard from "../userCard/UserCard";
 import AddNewUser from "../addNewUser/AddNewUser";
-import axios from "axios";
-import Navbar from "../navbar/Navbar";
+
 const UserList = () => {
     const { loading, users } = useSelector((state) => state);
     const dispatch = useDispatch();
@@ -18,7 +17,6 @@ const UserList = () => {
     }, []);
     return (
         <div>
-            <Navbar />
             <AddNewUser />
             {loading ? (
                 <h1>Loading ...</h1>
