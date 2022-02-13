@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    background: #dedee4;
+    padding: 36px 36px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    /* margin-left: 600px; */
+    margin-right: 30px;
+    font-size: 30px;
+    height: 400px;
+    width: 400px;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.user1 .user2 .user3 .btn.img {
+    display: inline-flex;
+}
+.img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.btn1 {
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+.btn2 {
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+.users {
+    display: inline-block;
+}
+.btn1 .btn2 {
+    display: inline;
+}
