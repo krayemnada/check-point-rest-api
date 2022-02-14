@@ -16,9 +16,13 @@ const UserCard = ({ user }) => {
                         {" "}
                         <h5 className="user1">{user.name}</h5>
                     </Link>
-                    <p className="user2">{user.email} </p>
-                    <p className="user3">{user.phone} </p>
-
+                    <p className="user2">
+                        <i class="fa-solid fa-circle-envelope"></i> {user.email}{" "}
+                    </p>
+                    <p className="user3">
+                        {" "}
+                        <i class="fa-solid fa-circle-phone"></i> {user.phone}{" "}
+                    </p>
                     <button
                         className="btn1"
                         onClick={() => dispatch(deleteUser(user._id))}

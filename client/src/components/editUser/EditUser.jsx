@@ -32,7 +32,7 @@ const EditUser = ({ user }) => {
     return (
         <div>
             <Button className="btn2" onClick={handleShow}>
-                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-pen-to-square fa-xl"></i>
             </Button>
 
             <Modal

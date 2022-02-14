@@ -17,7 +17,9 @@ const UserList = () => {
     }, []);
     return (
         <div>
-            <AddNewUser />
+            <h1 className="title">
+                This all students of groupe F1 in GoMyCode{" "}
+            </h1>
             {loading ? (
                 <h1>Loading ...</h1>
             ) : (
@@ -25,6 +27,7 @@ const UserList = () => {
                     users.map((el) => <UserCard user={el} />)
                 )
             )}
+            <AddNewUser />
         </div>
     );
 };

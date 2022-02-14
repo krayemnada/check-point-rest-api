@@ -26,7 +26,7 @@ const AddNewUser = () => {
     return (
         <div>
             <Button className="btn3" onClick={handleShow}>
-                Add New User
+                Add New Student
             </Button>
 
             <Modal

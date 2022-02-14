@@ -1,19 +1,22 @@
 import React from "react";
-import { Container, Nav } from "react-bootstrap";
-
+import "./Navbar.css";
 const Navbar = () => {
     return (
         <div>
-            <Navbar bg="light" variant="light">
-                <Container>
-                    <Navbar.Brand href="#home">User List</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#contact">Contact Us</Nav.Link>
-                        <Nav.Link href="#log">Log In</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+            <ul className="menu">
+                <li>
+                    <a href="default.asp">Home</a>
+                </li>
+                <li>
+                    <a href="news.asp">News</a>
+                </li>
+                <li>
+                    <a href="contact.asp">Contact</a>
+                </li>
+                <li>
+                    <a href="about.asp">About</a>
+                </li>
+            </ul>
         </div>
     );
 };

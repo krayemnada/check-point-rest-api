@@ -18,6 +18,10 @@
 .user1 .user2 .user3 .btn.img {
     display: inline-flex;
 }
+.title {
+    margin-top: 20px;
+    color: #9198e5;
+}
 .img {
     border-radius: 50%;
     width: 80px;
@@ -25,13 +29,20 @@
 }
 .btn1 {
     width: 100px;
+    border: none;
+    background-color: #dedee4;
     height: 50px;
-    background: linear-gradient(#e66465, #9198e5);
+    /* background: linear-gradient(#e66465, #9198e5); */
+}
+.btn2 :hover {
+    background-color: #dedee4;
 }
 .btn2 {
     width: 100px;
     height: 50px;
-    background: linear-gradient(#e66465, #9198e5);
+    border: none;
+    background-color: #dedee4;
+    color: black;
 }
 .users {
     display: inline-block;
